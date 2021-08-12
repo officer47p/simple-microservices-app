@@ -6,9 +6,7 @@ const app = express()
 app.use(express.json());
 
 
-const posts = {
-
-};
+const posts = {};
 
 app.get("/posts", (req, res) => {
     res.send(posts);
